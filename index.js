@@ -26,3 +26,7 @@ function addIftachStuff(bodyEl) {
 function addTomerStuff(bodyEl) {
     alert('not working')
 }
+function udi() {
+	alert('asdfasf')
+	alert('ew change after add')
+}

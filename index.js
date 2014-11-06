@@ -22,9 +22,7 @@ function addAvivStuff(bodyEl) {
 
 
 
-function giveMeFood () {
-	alert ("I'm hungry!");
-}
+
 
 function addTamirStuff(bodyEl) {
     var d = document.createElement('h3');

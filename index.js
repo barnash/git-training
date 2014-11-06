@@ -23,6 +23,6 @@ function addIaftachStuff(bodyEl) {
     bodyEl.appendChild(d);
 }
 
-function addTomerStuff(bodyEl) {
+/*function addTomerStuff(bodyEl) {
     alert('not working')
-}
+}*/

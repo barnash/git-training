@@ -1,3 +1,4 @@
+
 function main() {
     var bodyEl = document.getElementsByTagName('body')[0];
     addIftachStuff(bodyEl);
@@ -19,7 +20,7 @@ function addAvivStuff(bodyEl) {
 
 function addIaftachStuff(bodyEl) {
     var d = document.createElement('h3');
-    d.textContent = 'UZI is the man';
+    d.textContent = 'UZI is the Duck!';
     bodyEl.appendChild(d);
 }
 

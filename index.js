@@ -2,6 +2,7 @@ function main() {
     var bodyEl = document.getElementsByTagName('body')[0];
     addIftachStuff(bodyEl);
     addAvivStuff(bodyEl);
+    addTomerStuff(bodyEl);
 }
 
 function addIftachStuff(bodyEl) {
@@ -14,4 +15,8 @@ function addAvivStuff(bodyEl) {
     var d = document.createElement('h1');
     d.textContent = 'My name is Inigo Montoya';
     bodyEl.insertBefore(d, bodyEl.firstChild);
+}
+
+function addTomerStuff(bodyEl) {
+    alert('not working')
 }

@@ -1,3 +1,4 @@
+
 function main() {
     var bodyEl = document.getElementsByTagName('body')[0];
     addIftachStuff(bodyEl);
@@ -19,12 +20,21 @@ function addAvivStuff(bodyEl) {
     bodyEl.insertBefore(d, bodyEl.firstChild);
 }
 
+<<<<<<< HEAD
+
+
+function giveMeFood () {
+	alert ("I'm hungry!");
+}
+
 function addTamirStuff(bodyEl) {
     var d = document.createElement('h3');
-    d.textContent = 'UZI is the man';
+    d.textContent = 'UZI is the Duck!';
     bodyEl.appendChild(d);
 }
 
-/*function addTomerStuff(bodyEl) {
+
+
+function addTomerStuff(bodyEl) {
     alert('not working')
-}*/
+}

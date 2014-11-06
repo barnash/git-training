@@ -2,7 +2,8 @@ function main() {
     var bodyEl = document.getElementsByTagName('body')[0];
     addIftachStuff(bodyEl);
     addAvivStuff(bodyEl);
-    addTomerStuff(bodyEl);
+    //addTomerStuff(bodyEl);
+    addTamirStuff(bodyEl);
 }
 
 function addIftachStuff(bodyEl) {
@@ -17,7 +18,7 @@ function addAvivStuff(bodyEl) {
     bodyEl.insertBefore(d, bodyEl.firstChild);
 }
 
-function addIaftachStuff(bodyEl) {
+function addTamirStuff(bodyEl) {
     var d = document.createElement('h3');
     d.textContent = 'UZI is the man';
     bodyEl.appendChild(d);

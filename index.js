@@ -27,11 +27,7 @@ function giveMeFood () {
 	alert ("I'm hungry!");
 }
 
-function addTamirStuff(bodyEl) {
-    var d = document.createElement('h3');
-    d.textContent = 'UZI is the Duck!';
-    bodyEl.appendChild(d);
-}
+
 
 
 

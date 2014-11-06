@@ -1,7 +1,9 @@
+
 function main() {
     var bodyEl = document.getElementsByTagName('body')[0];
     addIftachStuff(bodyEl);
     addAvivStuff(bodyEl);
+    
     //addTomerStuff(bodyEl);
     addTamirStuff(bodyEl);
 }
@@ -18,11 +20,6 @@ function addAvivStuff(bodyEl) {
     bodyEl.insertBefore(d, bodyEl.firstChild);
 }
 
-function addTamirStuff(bodyEl) {
-    var d = document.createElement('h3');
-    d.textContent = 'UZI is the man';
-    bodyEl.appendChild(d);
-}
 
 function addTomerStuff(bodyEl) {
     alert('not working')
@@ -33,4 +30,16 @@ function udi() {
 }
 
 
-tamir hamzarzar
+//tamir hamzarzar
+
+
+
+
+
+
+
+function addTomerStuff(bodyEl) {
+    alert('not working')
+}
+
+Amir

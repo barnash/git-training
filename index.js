@@ -20,7 +20,6 @@ function addAvivStuff(bodyEl) {
     bodyEl.insertBefore(d, bodyEl.firstChild);
 }
 
-<<<<<<< HEAD
 
 
 function giveMeFood () {
@@ -38,3 +37,5 @@ function addTamirStuff(bodyEl) {
 function addTomerStuff(bodyEl) {
     alert('not working')
 }
+
+Amir

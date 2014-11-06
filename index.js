@@ -2,6 +2,7 @@ function main() {
     var bodyEl = document.getElementsByTagName('body')[0];
     addIftachStuff(bodyEl);
     addAvivStuff(bodyEl);
+    addTomerStuff(bodyEl);
 }
 
 function addIftachStuff(bodyEl) {
@@ -26,3 +27,7 @@ function addIftachStuff(bodyEl) {
     bodyEl.appendChild(d);
 }
 
+
+function addTomerStuff(bodyEl) {
+    alert('not working')
+}

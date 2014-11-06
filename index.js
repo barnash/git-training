@@ -14,7 +14,7 @@ function addIftachStuff(bodyEl) {
 
 function addAvivStuff(bodyEl) {
     var d = document.createElement('h1');
-    d.textContent = 'My name is Inigo Montoya';
+    d.textContent = 'My name is Inigo Montoya,prepare to die!';
     bodyEl.insertBefore(d, bodyEl.firstChild);
 }
 

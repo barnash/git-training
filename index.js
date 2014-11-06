@@ -16,7 +16,7 @@ function addAvivStuff(bodyEl) {
     bodyEl.insertBefore(d, bodyEl.firstChild);
 }
 
-function addIftachStuff(bodyEl) {
+function addIaftachStuff(bodyEl) {
     var d = document.createElement('h3');
     d.textContent = 'UZI is the man';
     bodyEl.appendChild(d);

@@ -15,3 +15,7 @@ function addAvivStuff(bodyEl) {
     d.textContent = 'My name is Inigo Montoya';
     bodyEl.insertBefore(d, bodyEl.firstChild);
 }
+
+function giveMeFood () {
+	alert ("I'm hungry!");
+}
